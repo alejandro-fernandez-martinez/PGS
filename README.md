@@ -2,7 +2,7 @@
 
 ## Objetivo
 * Objetivo:
-Creación de una estación terrestre para la recepción y envío de datos a las redes satelitales opensource, como por ejemplo SatNOGS, TinyGS y Outhernet
+Creación de una estación terrestre para la conexión con satélites, permitiendo recibir y enviar información en función de las posibilidades que ofrezcan los mismos.
 
 ## Redes
 * SatNOGS
