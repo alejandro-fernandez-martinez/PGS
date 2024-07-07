@@ -1,6 +1,6 @@
 # Portable Ground Station - 📡 PGS 🛰️
 
-Fase documental:
+v0.0.0 - Fase documental
 
 ## Objetivo
 
