@@ -6,6 +6,13 @@ v0.0.0 - Fase documental
 
 Creación de una estación terrestre para la conexión con satélites, permitiendo recibir y enviar información en función de las posibilidades que ofrezcan los mismos.
 
+## Material (en contrucción)
+* Software seguimiento satélites: https://oz9aec.dk/gpredict/
+* Antena: rotador, pc control, antena
+* SDR: ¿? (https://sdr-es.com/eleccion-sdr/)
+* Software SDR: https://www.sdrpp.org/ (https://sdr-es.com/instalacion-sdrpp/)
+* Software decodificador: ¿?
+
 ## Información sobre Redes (en contrucción)
 * Othernet: Servicio de acceso a determinada información de Internet desde satélites geoestacionarios: Datos metereológicos, noticias, Wikipedia, radio y APRS Radio data. Límite de descarga diario: 200 MB. Comunicación unidireccional.
   * Satélites:
@@ -24,9 +31,9 @@ Creación de una estación terrestre para la conexión con satélites, permitien
     * https://www.youtube.com/watch?v=0F57ARpZFig
     * https://www.rtl-sdr.com/outernet-dreamcatcher-setup-with-ads-b-dump1090-and-piaware-tutorial/
 
-* SatNOGS
+* SatNOGS - https://satnogs.org
 
-* TintGS
+* TintGS - https://tinygs.com/
 
 * NOAA
   * Satélites:
@@ -50,3 +57,5 @@ Creación de una estación terrestre para la conexión con satélites, permitien
 ## Enlaces de interés
 * https://www.rtl-sdr.com/
 * https://sdr-es.com/
+* https://www.amsat-ea.org/
+* https://www.mdpi.com/2673-4001/5/1/12
