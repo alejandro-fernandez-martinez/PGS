@@ -38,6 +38,10 @@ Creación de una estación terrestre para la conexión con satélites, permitien
 * Software SDR: https://www.sdrpp.org/ (https://sdr-es.com/instalacion-sdrpp/)
 * Software decodificador: ¿?
 
+## Antenas
+
+* Parabólicas: + info https://axessnet.com/la-antena-satelital-de-comunicaciones-como-funciona-y-cuales-son-sus-tipos/
+
 ## (en contrucción)
 * Othernet: Servicio de acceso a determinada información de Internet desde satélites geoestacionarios: Datos metereológicos, noticias, Wikipedia, radio y APRS Radio data. Límite de descarga diario: 200 MB. Comunicación unidireccional.
   * Satélites:
