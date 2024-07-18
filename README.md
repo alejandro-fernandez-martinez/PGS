@@ -30,6 +30,9 @@ Creación de una estación terrestre para la conexión con satélites, permitien
 | NOAA 18 | 2005-018A | Señal APT: 137,9125 MHz | ------------- | ------------- |
 | NOAA 19 | 2009-005A | Señal APT: 137,100 MHz | ------------- | ------------- |
 
+[AMSAT](https://www.amsat-ea.org/informaci%C3%B3n/) - Satélites de radioaficionados
++ info: https://www.amsat-ea.org/sat%C3%A9lites-activos/
++ info: https://amsat.org/status/
 
 ## Material (en contrucción)
 * Software seguimiento satélites: https://oz9aec.dk/gpredict/
@@ -37,6 +40,12 @@ Creación de una estación terrestre para la conexión con satélites, permitien
 * SDR: ¿? (https://sdr-es.com/eleccion-sdr/)
 * Software SDR: https://www.sdrpp.org/ (https://sdr-es.com/instalacion-sdrpp/)
 * Software decodificador: ¿?
+
+## TLE
+* https://celestrak.org/
+
+## Software seguimiento satélites
+* https://oz9aec.dk/gpredict/
 
 ## Antenas
 
