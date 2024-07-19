@@ -37,13 +37,25 @@ Conexión limitada a internet vía satélite: datos metereológicos, noticias, W
 | NOAA 18 | 2005-018A | Señal APT: 137,9125 MHz | ------------- |
 | NOAA 19 | 2009-005A | Señal APT: 137,100 MHz | ------------- |
 
-* ### Radioaficionados
+* ### De radioaficionados
+| Nombre | Canal FM | Transpondedor Lineal (SSB / CW)
+| ------------- | ------------- |------------- |
+| AO-27 | SI¿frecuencias? |------------- |
+|SO-50 (SaudiSat-1C)| SI¿frecuencias? |------------- |
+|AO-92| |------------- |Si ?¿frecuencias, modulaciones? |
 
 
+En función de la modulación:
+Canal FM: utilizan la modulación de frecuencia para la transmisión/recepción de señales. Simplex/Duplex (transmisión/recepción en diferentes frecuencias). Voz.
+Transpondedor Lineal (SSB / CW): pueden manejar múltples señales simultáneamente en bandas estrechas de frecuencias. Modulación de banda lateral única. Voz alta calidad y datos baja velocidad.
+    Single Side Band - SSB
+    Continuous Wave - CW
+Modos Digitales: permiten varias técnicas de modulación y codificación digital. Modos como BPSK (Phase Shift Keying), QPSK, y otros.Permiten la transmisión de datos, correo electrónico (a través de servicios como PACSAT), y otros modos digitales como APRS (Automatic Packet Reporting System).
 
 [AMSAT](https://www.amsat-ea.org/informaci%C3%B3n/) - Satélites de radioaficionados
 + info: https://www.amsat-ea.org/sat%C3%A9lites-activos/
 + info: https://amsat.org/status/
++ https://www.amsat.org/status/
 
 ## Localización y seguimiento de satélites
 
@@ -84,10 +96,11 @@ Línea 2:
     Número de revolución (213792): Número de revoluciones completas desde el lanzamiento.
 
 Fuentes de archivos TLE:
-* [Celestrak](https://www.celestrak.com/)
+https://www.celestrak.com/
 
 Generar tus propios archivos TLE personalizados:
-* https://github.com/albertomn86/TLEGenerator
+https://github.com/albertomn86/TLEGenerator
+https://sdr-es.com/generar-archivo-TLE/
 
 * ### Modelo matemático SGP4 (Simplified General Pertubations 4)
 Se usa para predecir las posiciones y velocidades de satélites en órbita terrestre baja (LEO). Desarrollado por NORAD en la década de 1980, es una mejora de los anteriores como SGP, SGP2 y SGP3. Usa los parámetros de los TLE para calcular la posición del satélite en cualquier momento posterior a la época dada.
@@ -104,7 +117,7 @@ https://www.sdrpp.org/
 * Parabólicas: + info https://axessnet.com/la-antena-satelital-de-comunicaciones-como-funciona-y-cuales-son-sus-tipos/
 
 ## Decodificar señales
-
+WXtoIMG (Weather Satellite Decoder?)
 
 ## (en contrucción)
 * Othernet: Servicio de acceso a determinada información de Internet desde satélites geoestacionarios: Datos 
