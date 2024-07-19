@@ -12,7 +12,7 @@ Creación de una estación terrestre para la conexión con satélites, permitien
 | ------------- | ------------- | ------------- |
 | Tipo de servicio | Recepción datos del satélite | Recepción datos del satélite | Conexión limitada a Internet vía satélite |
 | Limitaciones del servicio | Autoconfigurado al satélite más cercano | Asignación manual de los próximos pases | Capacidad Máx. de descarga de 200MB/día |
-| Satélites tra| [Listado oficial](https://tinygs.com/satellites)  | [Listado oficial](https://db.satnogs.org/satellites/)  
+| Satélites emisores| [Listado oficial](https://tinygs.com/satellites)  | [Listado oficial](https://db.satnogs.org/satellites/)  
 | Rango Frecuencias Recibidas | 137, 433, 868-915, 2400  | [Múltiples rangos](https://db.satnogs.org/stats)  |
 | Modos de Transmisión Recibidos | LoRa | [Múltiples modulaciones](https://db.satnogs.org/stats)  |
 
