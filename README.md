@@ -8,6 +8,18 @@ v0.1 - Recibir [satélite Es'hail-2/QO-100](https://amsat-dl.org/en/eshail-2-ams
 
 ## Material necesario
 
+### Radio definida por software [(SDR)] (https://www.rtl-sdr.com)
+
+* #### Hardware
+https://sdr-es.com/eleccion-sdr/
+* #### Software
+https://www.sdrpp.org/
+
+### Antenas
+
+* Parabólicas: + info https://axessnet.com/la-antena-satelital-de-comunicaciones-como-funciona-y-cuales-son-sus-tipos/
+
+
 ## Notas con información para futuro
 * ### Software de seguimiento de satélites
 [Gpredict](https://oz9aec.dk/gpredict/)
@@ -55,51 +67,9 @@ https://sdr-es.com/generar-archivo-TLE/
 * ### Modelo matemático SGP4 (Simplified General Pertubations 4)
 Se usa para predecir las posiciones y velocidades de satélites en órbita terrestre baja (LEO). Desarrollado por NORAD en la década de 1980, es una mejora de los anteriores como SGP, SGP2 y SGP3. Usa los parámetros de los TLE para calcular la posición del satélite en cualquier momento posterior a la época dada.
 
-## Radio definida por software (SDR)
-
-* ### Hardware
-https://sdr-es.com/eleccion-sdr/
-* ### Software
-https://www.sdrpp.org/
-
-## Antenas
-
-* Parabólicas: + info https://axessnet.com/la-antena-satelital-de-comunicaciones-como-funciona-y-cuales-son-sus-tipos/
-
 ## Decodificar señales
 WXtoIMG (Weather Satellite Decoder?)
 
-## (en contrucción)
-* Othernet: Servicio de acceso a determinada información de Internet desde satélites geoestacionarios: Datos 
-  * Bibliografía:
-    * https://github.com/Othernet-Project/Dreamcatcher
-    * https://github.com/McOrts/OTHERNET_GroundStation
-    * https://www.youtube.com/watch?v=8H49Vyqkftg
-    * https://www.youtube.com/watch?v=KPsQn06TM4M
-    * https://www.youtube.com/watch?v=0F57ARpZFig
-    * https://www.rtl-sdr.com/outernet-dreamcatcher-setup-with-ads-b-dump1090-and-piaware-tutorial/
-
-* NOAA
-  * Satélites:
-    * NOAA 15 - COSPAR ID: 1998-030A - Señal APT: 137,620 MHz
-    * NOAA 18 - COSPAR ID: 2005-018A - Señal APT: 137,9125 MHz
-    * NOAA 19 - COSPAR ID: 2009-005A - Señal APT: 137,100 MHz
-  * Hardware necesario
-    * Antena cuadrifilar
-      * (Alternativa) Antena v-dipolo de 77M-1GHz (aprox. 1m)
-    * (Opcional) Filtro de paso de banda de sierra de 137 MHz (SAW_137,5 MHz) y amplificador de bajo ruido (LNA)
-    * RTL-SDR
-  * Software necesario
-    * Sofware seguimiento satélites
-    * Software generación imagenes?
-      * WXtoImg - https://wxtoimgrestored.xyz/downloads/ 
-    * Software para SDR
-      * SdrSharp - https://airspy.com/download/ 
-  * Bibliografía:
-    * https://www.youtube.com/watch?v=L6SJ9ZFXSc4
 
 ## Enlaces de interés
-* https://www.rtl-sdr.com/
-* https://sdr-es.com/
-* https://www.amsat-ea.org/
 * https://www.mdpi.com/2673-4001/5/1/12
