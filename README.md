@@ -8,7 +8,7 @@ v0.1 - Recibir [satélite Es'hail-2/QO-100](https://amsat-dl.org/en/eshail-2-ams
 
 ## Material necesario
 
-### Radio definida por software [(SDR)] (https://www.rtl-sdr.com)
+### Radio definida por software ([SDR] (https://www.rtl-sdr.com))
 
 * #### Hardware
 https://sdr-es.com/eleccion-sdr/
