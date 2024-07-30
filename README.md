@@ -1,64 +1,14 @@
 # Portable Ground Station - 📡 PGS 🛰️
 
-v0.0.0 - Fase documental
-
 ## Objetivo
 
-Creación de una estación terrestre para la conexión con satélites, permitiendo recibir y enviar información en función de las posibilidades que ofrezcan los mismos.
+Creación de una estación terrestre para la conexión con [satélites](https://www.amsat-ea.org/sat%C3%A9lites-activos/), permitiendo recibir y enviar información en función de las posibilidades que ofrezcan los mismos.
 
-## Proyectos de redes receptoras
+v0.1 - Recibir [satélite Es'hail-2/QO-100](https://amsat-dl.org/en/eshail-2-amsat-phase-4-a/) 
 
-| Red de Estaciones Receptoras | [TinyGS](https://tinygs.com/) | [SatNOGS](https://satnogs.org/) |
-| ------------- | ------------- | ------------- |
-| Tipo de servicio | Recepción datos del satélite | Recepción datos del satélite | Conexión limitada a Internet vía satélite |
-| Limitaciones del servicio | Autoconfigurado al satélite más cercano | Asignación manual de los próximos pases | Capacidad Máx. de descarga de 200MB/día |
-| Satélites emisores| [Listado oficial](https://tinygs.com/satellites)  | [Listado oficial](https://db.satnogs.org/satellites/)  
-| Rango Frecuencias Recibidas | 137, 433, 868-915, 2400  | [Múltiples rangos](https://db.satnogs.org/stats)  |
-| Modos de Transmisión Recibidos | LoRa | [Múltiples modulaciones](https://db.satnogs.org/stats)  |
+## Material necesario
 
-- Nota: + Info TinyGS https://www.youtube.com/watch?v=6_csJlAhj-U
-
-## Listado de satélites
-
-* ### [Othernet](https://othernet.is/)
-Conexión limitada a internet vía satélite: datos metereológicos, noticias, Wikipedia, radio y APRS Radio data. Capacidad máxima de descarga de 200 MB/día. TIene hardware propio: Othernet Dreamcatcher y LNB.
-
-| Nombre | COSPAR ID | Frecuencias | Órbita |
-| ------------- | ------------- | ------------- | ------------- |
-| SES-2 | 2011-049A | ------------- |Geoestacionario | Othernet América del Norte |
-| Astra 3B | 2010-021A | ------------- |Geoestacionario | Othernet Europa |
-
-
-* ### Meteorológicos
-
-| Nombre | COSPAR ID | Frecuencias | Órbita |
-| ------------- | ------------- | ------------- | ------------- |
-| NOAA 15 | 1998-030A | Señal APT: 137,620 MHz | ------------- |
-| NOAA 18 | 2005-018A | Señal APT: 137,9125 MHz | ------------- |
-| NOAA 19 | 2009-005A | Señal APT: 137,100 MHz | ------------- |
-
-* ### De radioaficionados
-| Nombre | Canal FM | Transpondedor Lineal (SSB / CW)
-| ------------- | ------------- |------------- |
-| AO-27 | SI¿frecuencias? |------------- |
-|SO-50 (SaudiSat-1C)| SI¿frecuencias? |------------- |
-|AO-92| |------------- |Si ?¿frecuencias, modulaciones? |
-
-
-En función de la modulación:
-Canal FM: utilizan la modulación de frecuencia para la transmisión/recepción de señales. Simplex/Duplex (transmisión/recepción en diferentes frecuencias). Voz.
-Transpondedor Lineal (SSB / CW): pueden manejar múltples señales simultáneamente en bandas estrechas de frecuencias. Modulación de banda lateral única. Voz alta calidad y datos baja velocidad.
-    Single Side Band - SSB
-    Continuous Wave - CW
-Modos Digitales: permiten varias técnicas de modulación y codificación digital. Modos como BPSK (Phase Shift Keying), QPSK, y otros.Permiten la transmisión de datos, correo electrónico (a través de servicios como PACSAT), y otros modos digitales como APRS (Automatic Packet Reporting System).
-
-[AMSAT](https://www.amsat-ea.org/informaci%C3%B3n/) - Satélites de radioaficionados
-+ info: https://www.amsat-ea.org/sat%C3%A9lites-activos/
-+ info: https://amsat.org/status/
-+ https://www.amsat.org/status/
-
-## Localización y seguimiento de satélites
-
+## Notas con información para futuro
 * ### Software de seguimiento de satélites
 [Gpredict](https://oz9aec.dk/gpredict/)
 
